@@ -17,10 +17,10 @@
 }
 
 .hero-featured {
-  position: relative;
-  inset: auto;
   display: block;
   width: 100%;
+  max-width: none;
   height: auto;
-  object-fit: initial;
-}
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
