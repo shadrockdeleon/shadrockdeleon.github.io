@@ -17,3 +17,18 @@
 .hero-caption {
   z-index: 1;
 }
+.hero-image {
+  height: auto !important;
+  aspect-ratio: 3640 / 2160;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-featured {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
