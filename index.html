@@ -1,108 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Selected architectural design, documentation, and visualization work by Shadrock De Leon.">
-  <title>Shadrock De Leon — Architecture & Design</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-</head>
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Shadrock De Leon | Architecture & Design</title><link rel="stylesheet" href="styles.css"></head>
 <body>
-  <header class="site-header">
-    <a class="brand" href="#top">SHADROCK <span>DE LEON</span></a>
-    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
-    <nav class="nav">
-      <a href="#projects">Projects</a>
-      <a href="#about">About</a>
-      <a href="#capabilities">Capabilities</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
-
-  <main id="top">
-    <section class="hero section-wrap">
-      <div class="hero-copy">
-        <p class="eyebrow">ARCHITECTURE · DESIGN · VISUALIZATION</p>
-        <h1>Thoughtful spaces.<br><em>Clear design.</em></h1>
-        <p class="intro">A selection of architectural design, drafting, and visualization work shaped by function, detail, and a strong visual identity.</p>
-        <a class="text-link" href="#projects">VIEW SELECTED PROJECTS <span>↗</span></a>
-      </div>
-      <div class="hero-visual">
-        <img src="featured-render.jpg" alt="Featured architectural visualization" onerror="this.style.display='none'; this.parentElement.classList.add('image-placeholder');">
-        <div class="placeholder-note">Add your featured render<br><small>featured-render.jpg</small></div>
-      </div>
-      <div class="hero-foot"><span>PORTFOLIO — 2026</span><span>PHILIPPINES · AVAILABLE REMOTELY</span></div>
-    </section>
-
-    <section class="projects section-wrap" id="projects">
-      <div class="section-heading">
-        <div><p class="eyebrow">SELECTED WORK</p><h2>Projects<span class="period">.</span></h2></div>
-        <p>A selection across residential, commercial, and interior environments.</p>
-      </div>
-      <div class="filters" aria-label="Filter projects">
-        <button class="filter active" data-filter="all">All</button>
-        <button class="filter" data-filter="residential">Residential</button>
-        <button class="filter" data-filter="commercial">Commercial</button>
-        <button class="filter" data-filter="interior">Interior</button>
-      </div>
-      <div class="project-grid">
-        <article class="project-card" data-category="residential">
-          <div class="project-image tone-one"><span>01</span></div>
-          <div class="project-meta"><div><h3>Brightwater Residence</h3><p>Residential · Design & Visualization</p></div><span>↗</span></div>
-        </article>
-        <article class="project-card" data-category="residential">
-          <div class="project-image tone-two"><span>02</span></div>
-          <div class="project-meta"><div><h3>Cedar Creek Ranch</h3><p>Residential · Design Development</p></div><span>↗</span></div>
-        </article>
-        <article class="project-card" data-category="commercial">
-          <div class="project-image tone-three"><span>03</span></div>
-          <div class="project-meta"><div><h3>Medical Office Complex</h3><p>Commercial · Site Planning</p></div><span>↗</span></div>
-        </article>
-        <article class="project-card" data-category="interior">
-          <div class="project-image tone-four"><span>04</span></div>
-          <div class="project-meta"><div><h3>Velora Pilates Studio</h3><p>Interior · Design & Visualization</p></div><span>↗</span></div>
-        </article>
-        <article class="project-card" data-category="commercial">
-          <div class="project-image tone-five"><span>05</span></div>
-          <div class="project-meta"><div><h3>Learning & Training Facility</h3><p>Commercial · Architectural Design</p></div><span>↗</span></div>
-        </article>
-        <article class="project-card" data-category="interior">
-          <div class="project-image tone-six"><span>06</span></div>
-          <div class="project-meta"><div><h3>Interior Design & Visualization</h3><p>Interior · 3D Visualization</p></div><span>↗</span></div>
-        </article>
-      </div>
-      <p class="section-note">Project imagery and detailed case studies can be added as each project is prepared.</p>
-    </section>
-
-    <section class="about section-wrap" id="about">
-      <div><p class="eyebrow">A LITTLE ABOUT ME</p><h2>Designing with<br><em>purpose and precision.</em></h2></div>
-      <div class="about-copy">
-        <p>I’m an architectural designer focused on creating thoughtful spaces and communicating design clearly—from early concepts and technical drawings to detailed 3D visualizations.</p>
-        <p>My work spans residential, commercial, and interior projects, with an emphasis on practical coordination, visual clarity, and attention to detail.</p>
-      </div>
-    </section>
-
-    <section class="capabilities section-wrap" id="capabilities">
-      <p class="eyebrow">WHAT I DO</p><h2>Capabilities<span class="period">.</span></h2>
-      <div class="capability-grid">
-        <div><span>01</span><h3>Architectural Design</h3><p>Concept development, space planning, and design refinement.</p></div>
-        <div><span>02</span><h3>Drafting & Documentation</h3><p>2D drafting, construction documents, and drawing coordination.</p></div>
-        <div><span>03</span><h3>3D Visualization</h3><p>Modeling, material development, still renders, and walkthroughs.</p></div>
-        <div><span>04</span><h3>Project Support</h3><p>Material takeoffs, design reviews, and project coordination.</p></div>
-      </div>
-    </section>
-
-    <section class="contact section-wrap" id="contact">
-      <p class="eyebrow">HAVE A PROJECT IN MIND?</p>
-      <h2>Let's create<br><em>something meaningful.</em></h2>
-      <p>For collaborations, freelance opportunities, or project inquiries:</p>
-      <a class="contact-link" href="mailto:YOUR_EMAIL@example.com">YOUR_EMAIL@example.com ↗</a>
-    </section>
-  </main>
-  <footer class="footer section-wrap"><span>© <span id="year"></span> SHADROCK DE LEON</span><a href="#top">BACK TO TOP ↑</a></footer>
-  <script src="script.js"></script>
-</body>
-</html>
+<header class="topbar"><a class="brand" href="index.html">SHADROCK <span>DE LEON</span></a><nav><a href="#projects">Projects</a><a href="#about">About</a><a href="#capabilities">Capabilities</a><a href="#contact">Contact</a></nav></header>
+<main>
+<section class="hero"><img class="hero-img" src="assets/featured-render.jpg" alt="Featured architectural project"><div class="hero-shade"></div><div class="hero-content"><p class="eyebrow">ARCHITECTURE · DESIGN · VISUALIZATION</p><h1>Thoughtful spaces.<br><em>Clear design.</em></h1><a class="light-link" href="#projects">EXPLORE SELECTED WORK ↓</a></div><div class="hero-caption">SELECTED WORKS — 2026</div></section>
+<section class="intro section"><p class="eyebrow">ARCHITECTURAL PORTFOLIO</p><h2>Design, documentation<br>and visual storytelling.</h2><p class="intro-copy">A selection of architectural and interior projects, from design development and technical drawings to rendered visualizations.</p></section>
+<section class="section projects" id="projects"><div class="section-title"><div><p class="eyebrow">SELECTED WORK</p><h2>Projects<span>.</span></h2></div><p>Explore each project to view its renders, plans, and design documentation.</p></div>
+<div class="project-grid">
+<a class="project-card" href="projects/brightwater-residence.html"><div class="project-thumb thumb1"><span>01</span></div><div class="project-info"><div><h3>Brightwater Residence</h3><p>Residential · Texas</p></div><b>↗</b></div></a>
+<a class="project-card" href="projects/cedar-creek-ranch.html"><div class="project-thumb thumb2"><span>02</span></div><div class="project-info"><div><h3>Cedar Creek Ranch</h3><p>Residential · Texas</p></div><b>↗</b></div></a>
+<a class="project-card" href="projects/medical-office-complex.html"><div class="project-thumb thumb3"><span>03</span></div><div class="project-info"><div><h3>Medical Office Complex</h3><p>Commercial · Site Planning</p></div><b>↗</b></div></a>
+<a class="project-card" href="projects/velora-pilates.html"><div class="project-thumb thumb4"><span>04</span></div><div class="project-info"><div><h3>Velora Pilates Studio</h3><p>Interior · Design</p></div><b>↗</b></div></a>
+<a class="project-card" href="projects/learning-facility.html"><div class="project-thumb thumb5"><span>05</span></div><div class="project-info"><div><h3>Learning & Training Facility</h3><p>Commercial · Architectural Design</p></div><b>↗</b></div></a>
+<a class="project-card" href="projects/interior-visualization.html"><div class="project-thumb thumb6"><span>06</span></div><div class="project-info"><div><h3>Interior Design & Visualization</h3><p>Interior · 3D Visualization</p></div><b>↗</b></div></a>
+</div></section>
+<section class="section split" id="about"><div><p class="eyebrow">ABOUT</p><h2>Thoughtful design.<br><em>Practical execution.</em></h2></div><p>I’m an architectural designer focused on design development, technical documentation, and 3D visualization for residential, commercial, and interior projects.</p></section>
+<section class="section capabilities" id="capabilities"><p class="eyebrow">EXPERTISE</p><h2>Capabilities<span>.</span></h2><div class="cap-grid"><div>Architectural Design</div><div>Drafting & Documentation</div><div>3D Modeling & Visualization</div><div>Material Takeoffs & Coordination</div></div></section>
+<section class="section contact" id="contact"><p class="eyebrow">GET IN TOUCH</p><h2>Let's work<br><em>together.</em></h2><a href="mailto:YOUR_EMAIL@example.com">YOUR_EMAIL@example.com ↗</a></section>
+</main><footer class="footer"><span>© 2026 SHADROCK DE LEON</span><a href="#top">BACK TO TOP ↑</a></footer></body></html>

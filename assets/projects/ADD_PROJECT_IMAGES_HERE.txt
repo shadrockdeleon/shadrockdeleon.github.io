@@ -1,0 +1,1 @@
+Place project image files in this folder. We will connect them to the project pages.

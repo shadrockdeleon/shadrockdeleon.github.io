@@ -1,0 +1,1 @@
+Add your featured hero render here and name it featured-render.jpg.
