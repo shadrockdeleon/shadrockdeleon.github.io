@@ -9,3 +9,18 @@
   display: block;
   z-index: 0;
 }
+/* DISPLAY THE COMPLETE FEATURED IMAGE */
+
+.hero-image {
+  height: auto !important;
+  aspect-ratio: 16 / 9;
+}
+
+.hero-featured {
+  position: relative;
+  inset: auto;
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: initial;
+}
