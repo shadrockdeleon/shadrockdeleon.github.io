@@ -1,15 +1,23 @@
-# Shadrock De Leon — Architecture Portfolio (v3)
+SHADROCK DE LEON — PORTFOLIO WEBSITE
 
-This version uses a full-width featured image on the homepage and separate detail pages for each project.
+This package is a complete replacement for the current GitHub Pages website files.
 
-## Add your featured image
-Place your image at `assets/featured-render.jpg`.
+UPLOAD:
+1. Extract this ZIP on your computer.
+2. Open your GitHub repository: shadrockdeleon.github.io
+3. Upload/replace the contents of this folder at the repository root (not the folder itself).
+4. Keep the folders named assets and projects in the repository root.
+5. Commit the changes. GitHub Pages will publish the update automatically.
 
-## Add project images
-Each project has its own HTML page in `projects/`. Replace the placeholder image areas with `<img>` elements pointing to image files stored in `assets/projects/`. We can do this together as you send each project's images.
+IMPORTANT:
+- The homepage uses the featured-render.jpg image already included in assets/.
+- Replace YOUR_EMAIL@example.com in index.html with your professional email address.
+- The Learning & Training Facility page includes its two exterior views and floor plan. Its seven interior views were visible in the conversation but their original files were not available as separate local files when this package was assembled; add them later to assets/projects/learning-training-facility/ and update that page's gallery.
+- Check that you have permission to publicly display employer/client project images and drawings before publishing.
 
-## Update contact
-Replace `YOUR_EMAIL@example.com` in `index.html` with your email address.
-
-## Publish
-Upload the contents of this folder into the root of your GitHub Pages repository. Keep the `projects` and `assets` folders intact. Do not upload the ZIP file itself.
+PROJECT PAGES:
+- Cedar Creek Ranch
+- 6210 Brightwater Way
+- 6220 Brightwater Way
+- NeoWell & Regen
+- Learning & Training Facility
