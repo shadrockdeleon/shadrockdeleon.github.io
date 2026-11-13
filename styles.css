@@ -90,3 +90,9 @@
     border-bottom: 1px solid #d8d3c9;
     margin-bottom: 45px;
 }
+/* Divider between Residential and Commercial */
+.projects .project-grid + .category-title {
+    border-top: 1px solid #d8d3c9;
+    padding-top: 45px;
+    margin-top: 75px;
+}
