@@ -35,3 +35,21 @@
     max-height: none;
     object-fit: contain;
 }
+/* 6220 Brightwater Way — Full-width image gallery */
+.brightwater-6220-page .gallery-grid {
+    grid-template-columns: 1fr;
+    gap: 35px;
+}
+
+.brightwater-6220-page .gallery-item,
+.brightwater-6220-page .gallery-item.wide {
+    grid-column: auto;
+    width: 100%;
+}
+
+.brightwater-6220-page .gallery-item img {
+    width: 100%;
+    height: auto;
+    max-height: none;
+    object-fit: contain;
+}
