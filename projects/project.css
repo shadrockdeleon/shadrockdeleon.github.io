@@ -73,3 +73,24 @@
     max-height: none;
     object-fit: contain;
 }
+
+/* Learning & Training Facility — Full-width image gallery */
+.learning-facility-page .gallery-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 35px;
+}
+
+.learning-facility-page .gallery-item,
+.learning-facility-page .gallery-item.wide {
+    grid-column: auto;
+    width: 100%;
+}
+
+.learning-facility-page .gallery-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: none;
+    object-fit: contain;
+}
