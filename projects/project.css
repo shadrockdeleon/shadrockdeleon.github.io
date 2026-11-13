@@ -77,7 +77,7 @@
 /* Learning & Training Facility — Full-width image gallery */
 .learning-facility-page .gallery-grid {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
     gap: 35px;
 }
 
