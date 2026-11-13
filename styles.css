@@ -36,7 +36,7 @@
 
 .about-content {
     width: 100%;
-    max-width: 540px;
+    max-width: none;
     min-width: 0;
 }
 
@@ -47,8 +47,8 @@
 
 .about-content p {
     color: #6f6b63;
-    font-size: 14px;
-    line-height: 1.8;
+    font-size: 15px;
+    line-height: 1.85;
 }
 
 @media (max-width: 700px) {
