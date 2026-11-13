@@ -63,3 +63,22 @@
         max-width: 420px;
     }
 }
+/* About Section — Personal Heading */
+.about-content .eyebrow {
+    font-size: 18px;
+    letter-spacing: .22em;
+    margin-bottom: 24px;
+}
+
+.about-content .about-name {
+    font-size: clamp(42px, 5vw, 64px);
+    line-height: 1.05;
+    letter-spacing: -.055em;
+    font-weight: 500;
+    margin: 0 0 15px;
+}
+
+.about-content .about-role {
+    font-size: 17px;
+    margin-bottom: 25px;
+}
