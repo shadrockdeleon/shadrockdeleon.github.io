@@ -53,3 +53,23 @@
     max-height: none;
     object-fit: contain;
 }
+/* NeoWell & Regen — One Full-Width Image Per Row */
+.neowell-page .gallery-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 35px;
+}
+
+.neowell-page .gallery-item,
+.neowell-page .gallery-item.wide {
+    grid-column: auto;
+    width: 100%;
+}
+
+.neowell-page .gallery-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: none;
+    object-fit: contain;
+}
