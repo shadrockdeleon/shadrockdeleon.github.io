@@ -73,11 +73,3 @@
     max-height: none;
     object-fit: contain;
 }
-
-/* Remove temporary NeoWell debugging borders */
-.neowell-page .gallery-grid,
-.neowell-page .gallery-item,
-.neowell-page .gallery-item img {
-    outline: none !important;
-    border: none !important;
-}
