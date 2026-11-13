@@ -49,8 +49,7 @@
     color: #6f6b63;
     font-size: 15px;
     line-height: 1.85;
-    text-align: justify;
-    text-justify: inter-word;
+    text-align: left;
 }
 
 @media (max-width: 700px) {
@@ -79,6 +78,8 @@
 }
 
 .about-content .about-role {
-    font-size: 17px;
+    font-size: 18px;
+    color: #4f4b44;
+    font-weight: 500;
     margin-bottom: 25px;
 }
