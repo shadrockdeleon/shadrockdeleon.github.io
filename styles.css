@@ -84,3 +84,9 @@
     font-weight: 500;
     margin-bottom: 25px;
 }
+/* Divider below main Projects heading */
+.projects > .section-title:first-child {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #d8d3c9;
+    margin-bottom: 45px;
+}
