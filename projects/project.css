@@ -73,3 +73,6 @@
     max-height: none;
     object-fit: contain;
 }
+.neowell-page .gallery-grid {
+    outline: 3px solid red !important;
+}
