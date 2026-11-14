@@ -135,3 +135,24 @@
     max-height: none;
     object-fit: contain;
 }
+
+/* Caluag Residence — Residential Project */
+.caluag-residence-page .gallery-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 35px;
+}
+
+.caluag-residence-page .gallery-item,
+.caluag-residence-page .gallery-item.wide {
+    grid-column: auto;
+    width: 100%;
+}
+
+.caluag-residence-page .gallery-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: none;
+    object-fit: contain;
+}
