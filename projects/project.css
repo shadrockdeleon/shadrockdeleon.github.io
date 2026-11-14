@@ -94,3 +94,24 @@
     max-height: none;
     object-fit: contain;
 }
+
+/* Indoor Sports Complex — Academic Project */
+.indoor-sports-complex-page .gallery-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 35px;
+}
+
+.indoor-sports-complex-page .gallery-item,
+.indoor-sports-complex-page .gallery-item.wide {
+    grid-column: auto;
+    width: 100%;
+}
+
+.indoor-sports-complex-page .gallery-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: none;
+    object-fit: contain;
+}
