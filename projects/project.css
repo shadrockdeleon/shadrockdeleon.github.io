@@ -156,3 +156,24 @@
     max-height: none;
     object-fit: contain;
 }
+
+/* 2-Storey Residence — Residential Project */
+.two-storey-residence-page .gallery-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 35px;
+}
+
+.two-storey-residence-page .gallery-item,
+.two-storey-residence-page .gallery-item.wide {
+    grid-column: auto;
+    width: 100%;
+}
+
+.two-storey-residence-page .gallery-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: none;
+    object-fit: contain;
+}
