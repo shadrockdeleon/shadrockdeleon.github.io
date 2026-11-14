@@ -4,45 +4,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Academic Works | Shadrock De Leon</title>
+
+    <title>Palawan Center for Infectious Disease and Tropical Medicine | Shadrock De Leon</title>
+
     <link rel="stylesheet" href="styles.css">
+
     <style>
         .container {
-    width: min(1180px, 89%);
-    margin-left: auto;
-    margin-right: auto;
-}
+            width: min(1180px, 89%);
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Academic Project Header */
         .academic-header {
-            padding: 65px 0 45px;
+            padding: 65px 0 50px;
             border-bottom: 1px solid #d8d3c9;
         }
 
+        .academic-header .back-link {
+            display: inline-block;
+            font-size: 11px;
+            letter-spacing: .14em;
+            margin-bottom: 65px;
+            text-decoration: none;
+        }
+
+        .academic-header .back-link:hover {
+            opacity: .55;
+        }
+
+        .academic-header .eyebrow {
+            margin-bottom: 22px;
+        }
+
         .academic-header h1 {
-            font-size: clamp(42px, 6vw, 72px);
-            line-height: 1.05;
-            margin: 15px 0;
+            font-size: clamp(42px, 6vw, 76px);
+            line-height: 1.02;
+            letter-spacing: -.06em;
+            font-weight: 500;
+            margin: 0;
+            max-width: 1050px;
         }
 
+        /* Thesis Presentation Sheets */
         .academic-project {
-            padding: 55px 0 80px;
-        }
-
-        .academic-project h2 {
-            font-size: clamp(25px, 3vw, 38px);
-            margin: 0 0 12px;
-        }
-
-        .academic-project .project-description {
-            color: #6f6b63;
-            font-size: 15px;
-            line-height: 1.7;
-            margin-bottom: 35px;
+            padding: 50px 0 80px;
         }
 
         .academic-gallery {
             display: flex;
             flex-direction: column;
-            gap: 28px;
+            gap: 35px;
         }
 
         .academic-gallery img {
@@ -52,69 +65,100 @@
             object-fit: contain;
         }
 
-        .academic-footer {
-            padding: 30px 0;
-            border-top: 1px solid #d8d3c9;
-            text-align: center;
-        }
+        /* Mobile Layout */
+        @media (max-width: 700px) {
+            .academic-header {
+                padding: 45px 0 35px;
+            }
 
-        .academic-footer a {
-            text-decoration: none;
+            .academic-header .back-link {
+                margin-bottom: 45px;
+            }
+
+            .academic-header h1 {
+                font-size: clamp(38px, 10vw, 56px);
+            }
+
+            .academic-project {
+                padding: 35px 0 55px;
+            }
+
+            .academic-gallery {
+                gap: 20px;
+            }
         }
     </style>
 </head>
 
 <body id="top">
 
-<header class="topbar">
-    <a class="brand" href="index.html">SHADROCK <span>DE LEON</span></a>
+    <!-- Main Website Header -->
+    <header class="topbar">
+        <a class="brand" href="index.html">SHADROCK <span>DE LEON</span></a>
 
-    <nav>
-        <a href="index.html#projects">Projects</a>
-        <a href="index.html#about">About</a>
-        <a href="index.html#capabilities">Capabilities</a>
-        <a href="index.html#contact">Contact</a>
-    </nav>
-</header>
+        <nav>
+            <a href="index.html#projects">Projects</a>
+            <a href="index.html#about">About</a>
+            <a href="index.html#capabilities">Capabilities</a>
+            <a href="index.html#contact">Contact</a>
+        </nav>
+    </header>
 
     <main class="container">
 
+        <!-- Academic Project Information -->
         <section class="academic-header">
-            <p class="eyebrow">ARCHITECTURAL PORTFOLIO</p>
-            <h1>Academic Works<span>.</span></h1>
-            <p>Selected academic architectural projects and design explorations.</p>
-        </section>
 
-        <section class="academic-project">
-            <p class="eyebrow">THESIS PROJECT</p>
+            <a class="back-link" href="index.html#projects">
+                ← BACK TO PROJECTS
+            </a>
 
-            <h2>Palawan Center for Infectious Disease and Tropical Medicine</h2>
-
-            <p class="project-description">
-                Undergraduate Architectural Thesis
+            <p class="eyebrow">
+                ACADEMIC PROJECT · UNDERGRADUATE THESIS
             </p>
 
+            <h1>
+                Palawan Center for Infectious Disease and Tropical Medicine
+            </h1>
+
+        </section>
+
+        <!-- Thesis Presentation Sheets -->
+        <section class="academic-project">
+
             <div class="academic-gallery">
+
                 <img src="assets/academic-works/palawan-infectious-disease-center/1.jpg" alt="Thesis presentation sheet 1">
+
                 <img src="assets/academic-works/palawan-infectious-disease-center/2.jpg" alt="Thesis presentation sheet 2">
+
                 <img src="assets/academic-works/palawan-infectious-disease-center/3.jpg" alt="Thesis presentation sheet 3">
+
                 <img src="assets/academic-works/palawan-infectious-disease-center/4.jpg" alt="Thesis presentation sheet 4">
+
                 <img src="assets/academic-works/palawan-infectious-disease-center/5.jpg" alt="Thesis presentation sheet 5">
+
                 <img src="assets/academic-works/palawan-infectious-disease-center/6.jpg" alt="Thesis presentation sheet 6">
+
                 <img src="assets/academic-works/palawan-infectious-disease-center/7.jpg" alt="Thesis presentation sheet 7">
+
                 <img src="assets/academic-works/palawan-infectious-disease-center/8.jpg" alt="Thesis presentation sheet 8">
+
                 <img src="assets/academic-works/palawan-infectious-disease-center/9.jpg" alt="Thesis presentation sheet 9">
+
                 <img src="assets/academic-works/palawan-infectious-disease-center/10.jpg" alt="Thesis presentation sheet 10">
+
             </div>
+
         </section>
 
     </main>
 
-<footer class="footer">
-    <span>© 2026 SHADROCK DE LEON</span>
-    <a href="index.html#projects">ALL PROJECTS ↑</a>
-</footer>
+    <!-- Website Footer -->
+    <footer class="footer">
+        <span>© 2026 SHADROCK DE LEON</span>
+        <a href="index.html#projects">ALL PROJECTS ↑</a>
+    </footer>
 
 </body>
 </html>
-
